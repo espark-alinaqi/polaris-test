@@ -1,3 +1,4 @@
+
 export const tabs = [
   {
     id: "block",
@@ -35,43 +36,86 @@ export const Colors = [
     content: "Background Color",
   },
   {
-    id: "title-color",
-    color: "#000",
-    content: "Title Color",
-  },
-  {
     id: "icon-color",
     color: "#000",
     content: "Icon Color",
   },
   {
-    id: "subheading-color",
+    id: "title-color",
     color: "#000",
-    content: "Subheading Color",
+    content: "Title Color",
+  },
+  {
+    id: "subtitle-color",
+    color: "#000",
+    content: "Subtitle Color",
   },
 ];
 
 export const Typography = [
   {
-    id: "heading",
+    id: "title-font-size",
     fontSize: "15",
-    fontWeight: "400",
     textAlign: "center",
-    content: "Heading",
+    content: "Title font size",
   },
   {
-    id: "sub-heading",
-    fontSize: "15",
+    id: " ",
     fontWeight: "400",
     textAlign: "center",
-    content: "Sub Heading",
+    content: "Title font style",
+  },
+  {
+    id: "sub-title-font-size",
+    fontSize: "15",
+    textAlign: "center",
+    content: "Subtitle font size",
+  },
+  {
+    id: "sub-title-font-style",
+    fontWeight: "400",
+    textAlign: "center",
+    content: "Subtitle font style",
+  },
+];
+
+export const border = [
+  {
+    id: "up",
+    borderWidth: "0",
+    textAlign: "center",
+    content: "Goes Up",
+  },
+  {
+    id: "downs",
+    borderWidth: "0",
+    textAlign: "center",
+    content: "Goes Down",
   },
 ];
 
 export const option = [
-  { label: "400", value: "400" },
-  { label: "500", value: "500" },
-  { label: "600", value: "600" },
-  { label: "700", value: "700" },
-  { label: "800", value: "800" },
+  { label: "Normal (Regular)", value: "400" },
+  { label: "Medium", value: "500" },
+  { label: "Semi Bold (Demi Bold)", value: "600" },
+  { label: "Bold", value: "700" },
+];
+
+export const previewData = [
+  {
+    heading: "Question",
+    subtitle: "Contact us now",
+  },
+  {
+    heading: "Guaranteed",
+    subtitle: "Love it or get ",
+  },
+  {
+    heading: "Protection",
+    subtitle: "3 months Warranty",
+  },
+  {
+    heading: "Jealoues",
+    subtitle: "Our unique products",
+  },
 ];
